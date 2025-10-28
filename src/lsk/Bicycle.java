@@ -1,5 +1,4 @@
 package lsk;
 
-public class Bicycle extends TransportationDevice {
-	
+public class Bicycle extends NonMotorized {
 }

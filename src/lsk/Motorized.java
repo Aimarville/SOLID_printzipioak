@@ -1,10 +1,9 @@
 package lsk;
 
-public class Skate extends TransportationDevice implements HasEngine {
-
+public abstract class Motorized extends TransportationDevice {
+	
 	Engine engine;
 	
-	@Override
 	public void startEngine() {
 		System.out.println("Engine started");
 	}
